@@ -1,14 +1,12 @@
 package com.company.javarestwebservice.models;
 
-import java.util.SplittableRandom;
-
-public class EightBallAnswers {
+public class Answer {
 
     private String question;
     private String answer;
     private int id;
 
-    public EightBallAnswers(String question, String answer, int id) {
+    public Answer(String question, String answer, int id) {
         this.question = question;
         this.answer = answer;
         this.id = id;
